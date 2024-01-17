@@ -25,16 +25,18 @@ section {
 footer {
     text-align: center;
     padding: 10px;
+    border-radius: 8px;
     opacity: 0.9;
     z-index: 5;
     background-color: #007BFF;
     color: #fff;
     position: fixed;
-    width: 100%;
-    bottom: 0;
-    left: 0;
+    width: 50%;
+    left: 25%;
+    bottom: 3px;
     z-index: 1;
 }
 .small {
   font-size: 10px;
 }
+
