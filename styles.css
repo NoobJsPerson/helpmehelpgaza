@@ -4,8 +4,10 @@ body {
     background-color: #f5f5f5;
     color: #333;
     font-family: 'Rubik', sans-serif;
+    max-width: 100%;
 }
 footer {
+    word-wrap: break-word;
     text-align: center;
     padding: 10px;
     border-radius: 8px;
@@ -17,9 +19,11 @@ footer {
     width: 50%;
     left: 25%;
     bottom: 3px;
-    z-index: 1;
 }
 .small {
-  font-size: 10px;
+    font-size: 10px;
+}
+a {
+    color:#003c7d;
 }
 
