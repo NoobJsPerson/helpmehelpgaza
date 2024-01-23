@@ -28,3 +28,15 @@ a {
     color:#003c7d;
 }
 
+.small-ad {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .big-ad {
+    	display: none;
+    }
+    .small-ad {
+	display: initial;
+    }
+}
