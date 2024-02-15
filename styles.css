@@ -8,18 +8,17 @@ body {
     max-width: 100%;
 }
 footer {
-    word-wrap: break-word;
+    position: fixed;
     text-align: center;
-    padding: 10px;
-    border-radius: 8px;
     opacity: 0.9;
     z-index: 5;
     background-color: #007BFF;
     color: #fff;
-    position: fixed;
-    width: 50%;
-    left: 25%;
-    bottom: 3px;
+    padding: 0px;
+    width: 100%;
+    bottom: 0;
+    left 0;
+    right: 0;
 }
 .small {
     font-size: 10px;
@@ -43,6 +42,6 @@ a {
     	display: none;
     }
     .small-ad {
-	display: initial;
+	    display: initial;
     }
 }
