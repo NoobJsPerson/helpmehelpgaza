@@ -1,0 +1,1 @@
+HelpMeHelpGaza is a website dedicated to making a positive impact in the lives of people in Gaza. Our mission is to channel ad revenue from the platform directly to registered charities working in the region. By visiting our website, users contribute to humanitarian efforts in Gaza without any additional cost.
