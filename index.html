@@ -20,19 +20,8 @@
 		<p class="big">378,000 people are starving in Gaza</p>
 		<p class="small">Integrated Food Security Phase Classification (IPC). <a href="blogs/stats-about-famine-en.html">Read More</a></p>
 	</div>
-	<div class="big-ad">
-		<script type="text/javascript">
-			atOptions = {
-				'key' : '601f1034744c5eead37f3886567ecbab',
-				'format' : 'iframe',
-				'height' : 60,
-				'width' : 468,
-				'params' : {}
-			};
-			document.write('<scr' + 'ipt type="text/javascript" src="//cockpiteconomicspayroll.com/601f1034744c5eead37f3886567ecbab/invoke.js"></scr' + 'ipt>');
-		</script>
-	</div>
 	<h2>Supporting Gaza Families: Turning Clicks into Aid</h2>
+	<div id="video-div"></div>
 	<p>Welcome to HelpMeHelpGaza, a platform dedicated to making a positive impact in the lives of families in Gaza. Our mission is simple: leverage the power of online advertising to generate funds for charities that provide essential support to those in need.</p>
 
 	<h3>How It Works</h3>
@@ -75,6 +64,24 @@
 				<p>Contact Us: <a href="mailto:helpmehelpgaza@gmail.com">helpmehelpgaza@gmail.com</a> | Follow us on <a href="https://www.facebook.com/profile.php?id=61553260445418">Facebook</a> | Join the <a href="https://discord.com/invite/BfhUSAAPZ5">Discord Server</a></p>
 				<p><a href="/ar.html">العربية</a></p>
 	</footer>
+	<script>
+	var tag = document.createElement('script');
+
+	tag.src = "https://www.youtube.com/iframe_api";
+	var firstScriptTag = document.getElementsByTagName('script')[0];
+	firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+	var player;
+	
+		function onYouTubePlayerAPIReady() {
+			youtube = new YT.Player('video-div', {
+				videoId: "EH4RAdGZ9AQ",
+				playerlets: {
+					loop: 1,
+					autoplay: 1
+				},
+			});
+		}
+	</script>
 </body>
 
 </html>
