@@ -75,14 +75,14 @@
 	function onYouTubePlayerAPIReady() {
 		youtube = new YT.Player('video-div', {
 			videoId: "EH4RAdGZ9AQ",
-			playerlets: {
+			playerVars: {
 				loop: 1,
-				origin: "http://www.helpmehelpgaza.click"
+				autoplay: 1,
+				mute: 1
 			},
 			events: {
-				onReady: () => {
-					youtube.playVideo()
-					setTimeout(() => youtube.playVideo(), 1000)
+				onReady: event => {
+					event.target.playVideo()
 				}
 			},
 		});
