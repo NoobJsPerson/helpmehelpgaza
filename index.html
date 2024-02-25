@@ -77,12 +77,12 @@
 			videoId: "EH4RAdGZ9AQ",
 			playerlets: {
 				loop: 1,
-				origin: "https://www.helpmehelpgaza.click"
+				origin: "http://www.helpmehelpgaza.click"
 			},
 			events: {
 				onReady: () => {
-					youtube.pauseVideo()
 					youtube.playVideo()
+					setTimeout(() => youtube.playVideo(), 1000)
 				}
 			},
 		});
