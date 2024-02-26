@@ -78,6 +78,12 @@
 			events: {
 				onReady: event => {
 					event.target.playVideo()
+				},
+				onStateChange: event => {
+					if(event.data == YT.PlayerState.ENDED) {
+						event.target.seekTo(0)
+						event.target.playVideo()
+					}
 				}
 			},
 		});
