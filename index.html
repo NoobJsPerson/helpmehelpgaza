@@ -13,6 +13,7 @@
 
 <body>
 	<h1>HelpMeHelpGaza</h1>
+	<iframe class="ytvideo" src="https://www.youtube.com/embed/EH4RAdGZ9AQ?si=pMkNLDKQL5xRGP1j&amp;autoplay=1&mute=1&loop=1&controls=0" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; web-share"></iframe>
 	<div class="center-text">
 		<p class="big">378,000 people are starving in Gaza</p>
 		<p class="small">Integrated Food Security Phase Classification (IPC). <a href="blogs/stats-about-famine-en.html">Read More</a></p>
@@ -103,28 +104,6 @@
 	var firstScriptTag = document.getElementsByTagName('script')[0]
 	firstScriptTag.parentNode.insertBefore(tag, firstScriptTag)
 	var player;
-	function onYouTubePlayerAPIReady() {
-		youtube = new YT.Player('video-div', {
-			videoId: "EH4RAdGZ9AQ",
-			playerVars: {
-				loop: 1,
-				autoplay: 1,
-				mute: 1
-			},
-			events: {
-				onReady: event => {
-					event.target.playVideo()
-				},
-				onStateChange: event => {
-					if(event.data == YT.PlayerState.ENDED) {
-						event.target.seekTo(0)
-						event.target.playVideo()
-					}
-				}
-			},
-		});
-	}
-
 	</script>
 </body>
 
