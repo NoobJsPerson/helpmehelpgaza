@@ -26,7 +26,7 @@ function postMessage() {
 	}).then(response => {
 		if (response.ok) {
 			// If the response is ok, add the message to the wall
-			alert("Message posted!");
+			alert("Message has been submitted and is awaiting approval!");
 		}
 	});
 	// location.reload();
