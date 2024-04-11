@@ -16,6 +16,7 @@ function loadMessages() {
 		loadMessages();
 	})
 }
+loadMessages()
 function postMessage() {
 	// Get the message from the input
 	const message = document.getElementById("message").value;
