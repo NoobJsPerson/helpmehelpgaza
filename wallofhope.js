@@ -1,17 +1,21 @@
-fetch(`https://puzzled-jersey-bear.cyclic.app/get_approved_msgs?lang=${document.documentElement.lang}`).then(response => {
-	if (response.ok) {
-		response.json().then(data => {
-			// For each message, add it to the wall
-			data.forEach(message => {
-				const messageElement = document.createElement("div");
-				messageElement.className = "message";
-				messageElement.innerText = message.text;
-				document.getElementById("wall").appendChild(messageElement);
+function loadMessages() {
+	fetch(`https://puzzled-jersey-bear.cyclic.app/get_approved_msgs?lang=${document.documentElement.lang}`).then(response => {
+		if (response.ok) {
+			response.json().then(data => {
+				// For each message, add it to the wall
+				data.forEach(message => {
+					const messageElement = document.createElement("div");
+					messageElement.className = "message";
+					messageElement.innerText = message.text;
+					document.getElementById("wall").appendChild(messageElement);
+				});
 			});
-		});
-	}
-});
-
+		}
+	}).catch(error => {
+		console.error("Error loading messages", error);
+		loadMessages();
+	})
+}
 function postMessage() {
 	// Get the message from the input
 	const message = document.getElementById("message").value;
