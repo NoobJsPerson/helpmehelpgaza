@@ -8,7 +8,7 @@
 	<title>HelpMeHelpGaza</title>
 	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
 	<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-	<script src="scipts.js"></script>
+	<script src="wallofhope.js" defer></script>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
@@ -82,7 +82,17 @@
 			document.write('<scr' + 'ipt type="text/javascript" src="//cockpiteconomicspayroll.com/cb1886bb3a43ab57fc9ee2b6c716205c/invoke.js"></scr' + 'ipt>');
 		</script>
 	</div>
+	<div class="center-text">
+		<h2>حائط الأمل</h2>
+		<p>أرسل رسالة أمل لشعب غزة. سيتم عرض رسالتك على جدار الأمل لدينا.</p>
+		<span class="small">(يرجى إبقاء الرسائل إيجابية ومحترمة، مع العلم أن رسائلك سوف تحتاج إلى التحقق من قبل مسؤول الموقع لتظهر على الصفحة)</span>
+		<textarea id="message" placeholder="أكتب رسالتك هنا..."></textarea>
+		<button onclick="postMessage()">إرسال</button>
+		<div id="wall"></div>
 
+		</div>
+		<div id="snackbar">تم إرسال الرسالة وهي في انتظار الموافقة!</div>
+	</div>
 	
 	<footer>
 		<p>تواصل معنا: <a href="mailto:helpmehelpgaza@gmail.com">helpmehelpgaza@gmail.com</a> | تابعنا على <a href="https://www.facebook.com/profile.php?id=61553260445418">Facebook</a></p>  أو على <a href="https://twitter.com/helpmehelpgaza">Twitter (X)</a> | انضم إلى <a href="https://discord.com/invite/BfhUSAAPZ5">Discord Server</a></p>

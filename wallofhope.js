@@ -1,4 +1,4 @@
-fetch("https://puzzled-jersey-bear.cyclic.app/get_approved_msgs").then(response => {
+fetch(`https://puzzled-jersey-bear.cyclic.app/get_approved_msgs?lang=${document.documentElement.lang}`).then(response => {
 	if (response.ok) {
 		response.json().then(data => {
 			// For each message, add it to the wall
