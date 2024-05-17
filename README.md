@@ -1,3 +1,7 @@
+# THIS PROJECT IS BEING ARCHIVED
+### I initially started this project to help people of Gaza in these hard times during the war. But now I'm archiving it mainly for the following:
+I hoped that, with this project, I could make change in Gaza people's lives but that wasn't the case, mainly because I don't have the money to advertise it nor the time to share it around and brainstorm ideas for it and work on it and other skills like editing and UI design. I also study at university so working on this project just slowed that down and didn't cause me anything but harm. I quickly realsed that a website that generates ad revenue must a HUGE amount of daily visits to get approved by a legitimate ad company yet make any amount of money. It was basically impossible for me to make this work. and that was the main reason i decided to archive it. They were other reasons but I feel like this is most relevant.
+
 🌍 **HelpMeHelpGaza: Empowering Change through Ad Revenue 🤝**
 
 Explore our mission at [HelpMeHelpGaza](http://www.helpmehelpgaza.click/) and join a compassionate community committed to making a positive impact in the lives of people in Gaza! 💖
